@@ -1,6 +1,6 @@
 # stock-n-shop.back
 
-> 
+>
 
 ## About
 
@@ -15,36 +15,44 @@ Getting up and running is as easy as 1, 2, 3.
 1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 2. Install your dependencies
 
-    ```
-    cd path/to/stock-n-shop.back
-    npm install
-    ```
+```
+cd path/to/stock-n-shop.back
+npm install
+```
 
 3. Start your app
 
-    ```bash
-    # development
-    $ npm run start
+```bash
+# development
+$ npm run start
 
-    # watch mode
-    $ npm run start:dev
+# watch mode
+$ npm run start:dev
 
-    # production mode
-    $ npm run start:prod
-    ```
+# production mode
+$ npm run start:prod
+```
 
 ## Testing
 
-    ```bash
-    # unit tests
-    $ npm run test
+```bash
+# unit tests
+$ npm run test
 
-    # e2e tests
-    $ npm run test:e2e
+# e2e tests
+$ npm run test:e2e
 
-    # test coverage
-    $ npm run test:cov
-    ```
+# test coverage
+$ npm run test:cov
+```
+
+## Postgres on hand
+
+To start postgres
+
+```
+$ docker run --name postgres -e POSTGRES_PASSWORD=passwd -p 5432:5432 -d postgres
+```
 
 <!-- ## Support
 
